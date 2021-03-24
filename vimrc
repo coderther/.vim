@@ -79,7 +79,8 @@ map <up> :res +5<CR>
 map <down> :res -5<CR>
 map <left> :vertical resize-5<CR>
 map <right> :vertical resize+5<CR>
-
+noremap <C-w> b
+noremap <C-e> ge
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline' 
